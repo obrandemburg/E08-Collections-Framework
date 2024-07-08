@@ -8,9 +8,5 @@ public class OperacaoDeposito extends Operacao {
     public double calcularTaxas() {
         return 0f;
     }
-
-    @Override
-    public int compareTo(Operacao o) {
-        return 0;
-    }
 }
+

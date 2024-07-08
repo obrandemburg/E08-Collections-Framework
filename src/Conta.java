@@ -13,8 +13,6 @@ public abstract class Conta implements ITaxas {
 
     protected double limite;
 
-    //private Operacao[] operacoes;
-
     private int proximaOperacao;
 
     private static int totalContas = 0;

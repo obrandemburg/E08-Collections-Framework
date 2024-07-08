@@ -71,4 +71,14 @@ public abstract class Operacao implements ITaxas, Comparable<Operacao> {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+    @Override
+    public int compareTo(Operacao o) {
+
+        if (o.tipo == 'd'){
+            return 1;
+        }
+        return -1;
+    }
 }
+
